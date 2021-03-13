@@ -6,7 +6,7 @@ Software Engineering Group Project
 
 &nbsp;
 
- >>>## **Team Members**
+ >>## **Team Members**
 
 | Name | Email | Role |
 | ---- | ----- | ---- |

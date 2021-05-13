@@ -1,4 +1,4 @@
-**Step by step:**
+**Step by step Part 1:**
 
 1. Download MERN zip and open it, then open a terminal and cd into the ‘backend’ folder in the MERN folder
 	
@@ -14,7 +14,7 @@
 	
 
 
-**Step by step:**
+**Step by step Part 2:**
 
 1. Now that you have downloaded the MERN zip, in a separate terminal, whilst the first terminal is still running, cd into the ‘culture-trivia’ folder in the MERN folder
 	

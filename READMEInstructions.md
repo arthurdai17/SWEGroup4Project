@@ -1,4 +1,4 @@
-**Follow the instructions below to run the Culture Trivia App:**
+**Follow the instructions below to run the Culture Trivia app:**
 
 **Step by step Part 1:**
 

@@ -17,6 +17,7 @@
 7. Then run the command ‘nodemon server’ from the backend folder
 	
 	
+	
 **Step by step Part 2:**
 
 1. Now that you have downloaded the MERN zip, in a separate terminal, whilst the first terminal is still running, cd into the ‘culture-trivia’ folder of the MERN folder

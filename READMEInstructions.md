@@ -1,6 +1,8 @@
+**Follow the instructions below to run the Culture Trivia App:**
+
 **Step by step Part 1:**
 
-1. Download MERN zip and open it, then open a terminal and cd into the ‘backend’ folder in the MERN folder
+1. Download MERN zip from the main branch of the repo and open it, then open a terminal and cd into the ‘backend’ folder in the MERN folder
 	
 2. Then run the command ‘node -v’ to see if you have node installed 
 	

@@ -13,8 +13,8 @@ Software Engineering Group Project
 | Imran Koorjee | do20508@bristol.ac.uk | Documentation Lead                            |
 | Arthur Dai    | os20872@bristol.ac.uk | Front-End/Back-End Management and Integration |
 | Jehan Koorjee | jk17759@bristol.ac.uk | MERN Stack Technical Lead                     |
-| Alfred Joseph | th20497@bristol.ac.uk | Server-Side Technical Lead                    |
-| Richard Zhang | kt20722@bristol.ac.uk | Content and Feedback                          |
+| Alfred Joseph | th20497@bristol.ac.uk | Content and Feedback                          |
+| Richard Zhang | kt20722@bristol.ac.uk | Server Side Technical Lead                    |
 
 &nbsp;
 

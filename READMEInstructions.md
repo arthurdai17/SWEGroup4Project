@@ -1,4 +1,4 @@
->## **Follow the instructions below to run the Culture Trivia app:**
+># **Follow the instructions below to run the Culture Trivia app:**
 
 ### <ins>**Step by step Part 1:**</ins>
 

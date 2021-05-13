@@ -1,4 +1,4 @@
-**Next Friday: **
+**Next Friday:**
 
 Pick a picture of the map and divide into regions  
   Code: we need to get these images to display on the webApp and we should be able to click them  

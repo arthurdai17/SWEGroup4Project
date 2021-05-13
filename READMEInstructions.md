@@ -1,6 +1,6 @@
-**Follow the instructions below to run the Culture Trivia app:**
+>## **Follow the instructions below to run the Culture Trivia app:**
 
-**Step by step Part 1:**
+### <ins>**Step by step Part 1:**</ins>
 
 1. Download the MERN zip from the main branch of the repo, save it locally on your device and open it
 
@@ -18,7 +18,7 @@
 	
 	
 	
-**Step by step Part 2:**
+### <ins>**Step by step Part 2:**</ins>
 
 1. Now that you have downloaded the MERN zip, in a separate terminal, whilst the first terminal is still running, cd into the ‘culture-trivia’ folder of the MERN folder
 

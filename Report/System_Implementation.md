@@ -1,6 +1,6 @@
 # **SYSTEM IMPLEMENTATION**
 
-### Implementing the MERN backend (MongoDB, Express and Node) Stack: 
+### **Implementing the MERN backend (MongoDB, Express and Node) Stack:** 
 
 To implement the MERN application we took a four step approach. First, we configured the backend API, i.e. the server side, by connecting Express and Node to MongoDB and the front end. After the creation of the API, we built the frontend using ReactJS to design the user interface. Finally, we linked the frontend and backend inside of the javascript classes in ReactJS. We used the resources on the SEGP GitHub and the following logRocket MERN Stack Tutorial to guide us through the process: https://blog.logrocket.com/mern-stack-tutorial/#rest. We also used most of the following Medium website: https://medium.com/@beaucarnes/learn-the-mern-stack-by-building-an-exercise-tracker-mern-tutorial-59c13c1237a1  
 
@@ -33,8 +33,9 @@ To populate the database, we wrote a script in the server.js file (we could have
 ![](images/sysimp5.png)
 
 This process completed the backend of the application. 
+___
 
-### Implementing the Front End using React: 
+### **Implementing the Front End using React:**
 
 To create the user interface we used ReactJS. At first it was tricky to get to grips with React as resources online often used JSX where you could write HTML, CSS and JavaScript all in one file. The syntax of JSX was extremely confusing to get to grips with at first so to make things easier we started to style the app using bootstrap as much as possible. Using bootstrap was useful as it is extremely straightforward to use and has a lot of built-in components which are ready to use such as different button sizes, button shapes and colors. However, as we went along and the styling requirements became more complex, we decided to shift towards using a traditional separate CSS file. Doing this allowed us to be more specific with styling which was necessary when trying to achieve specific font-colors, placing buttons in a particular place on the page, inserting background images and more. As a result, the code for styling of our app can partially be seen in the ‘question-item.component.js’ and the ‘start-quiz.component.js’ and partially in ‘index.css’.  
 
@@ -53,12 +54,14 @@ To create the user interface we used ReactJS. At first it was tricky to get to g
  To get everything rendered on the screen, the render() function was called every time a change happened i.e. every time a user pressed a button the page would re-render appropriately as seen in the code below from the from the ‘question-item.component.js’ file: 
  
  ![](images/sysimp9.png)
+___
  
- ### Deployment details: 
+ ### **Deployment details:** 
  
   We were unable to successfully deploy the app on docker however, we did try various solutions. We tried using docker container to deploy the app by writing three separate files; A Dockerfile for the frontend, a Dockerfile for the backend and docker-compose.yml in the main project directory. When running this there were several error messages that occurred that we were unable to solve due to time restrictions. Although the frontend of our app seemed to run successfully on Docker, it was unable to connect to the database.  
 
  Additionally, we were unable to use continuous integration to the extent that we had hoped to in this project. The reasons for this and what we would do differently next time to use continuous integration has been discussed later in this report. 
+ ___
  
  
  

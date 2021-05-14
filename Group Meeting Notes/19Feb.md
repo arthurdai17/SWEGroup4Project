@@ -4,21 +4,7 @@
 
 Primary School Students 
 
-Secondary/University Students (if time) 
-
- 
-
-**THINGS TO RESEARCH** 
-
-How to open links in the same window without reloading the page. 
-
-How to create/implement a countdown timer for questions 
-
-How to create/implement a leaderboard with a coins system 
-
-How to create/implement an interactive map of the world 
-
- 
+Secondary/University Students (if time)  
 
 **WORKFLOW:** 
 
@@ -46,20 +32,24 @@ Initial Lives = 3. Lives are lost if:
 
 Life lost if minimum of 3 questions not answered correctly (within time limit – 60seconds). 
 
- 
+**GOAL FOR NEXT TIME: THINGS WE NEED TO RESEARCH** 
 
- 
+- How to open links in the same window without reloading the page. 
 
-**TECHNICAL DETAILS** 
+- How to create/implement a countdown timer for questions 
 
-Create a map pieced together by continent. 
+- How to create/implement a leaderboard with a coins system 
 
-Clicking on a continent will filter questions to a particular region of the continent. 
+- How to create/implement an interactive map of the world 
 
-Questions 
+- Create a map pieced together by continent. 
 
-One-way flow of questions (can’t return to previous question once answered) 
+- Clicking on a continent will filter questions to a particular region of the continent. 
 
-Create a points system 
+- Questions 
 
-Points can be traded in for coins, which can be used to unlock higher levels 
+- One-way flow of questions (can’t return to previous question once answered) 
+
+- Create a points system 
+
+- Points can be traded in for coins, which can be used to unlock higher levels 

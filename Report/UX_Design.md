@@ -14,7 +14,7 @@ Deliver – choosing a single solution to focus on with the aim of solving the p
 
 Although the framework separates these four areas, it is sometimes useful (particularly during the brainstorming process) to consider the potential problems and potential solutions together. In order to achieve this, an ‘Index Matrix’ was used to brainstorm different options. An idea matrix is simply a table with a list of problems running down the rows and a list of solutions running across the columns. The aim is to pair as many ideas to the given solutions as possible, thus creating a pool of problems attached to potential solutions to that problem. This proved to be incredibly helpful in opening our minds to new and creative ideas. The identity matrix used by the team is shown below: 
 
-![](images/g1_ideaMatrix.png)  
+![](images/img1_ideaMatrix.png)  
 
 After conducting this exercise, the team’s initial thoughts were to create an application that would educate people about different cultures from across the world using a ‘ball & goal’ game. The idea was to create a game that involved shooting a ball at a target (perhaps a hoop) and points would be allocated for successful shots. However, if a shot was missed the player would be required to correctly answer a question about culture correctly in order to stay in the game. Ideally, we would have liked to implement this idea. Not only would the game be fun to play, but it also introduced an element of competition and provided users with an incentive to learn. 
 

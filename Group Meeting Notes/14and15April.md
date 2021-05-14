@@ -10,4 +10,7 @@ Decided to downscale the project and take away some of its functionality I.e. le
 
 **15th April meeting with Allison:** 
 
-Suggested that we should scale down further and just focus on getting one country done with a few questions – this is our minimum viable product.  
+Suggested that we should scale down further and just focus on getting one country done with a few questions – this is our minimum viable product. 
+
+**Goal for next time:**
+To get an up and running front end

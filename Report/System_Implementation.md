@@ -34,7 +34,7 @@ To populate the database, we wrote a script in the server.js file (we could have
 
 This process completed the backend of the application. 
 
-### Front End - React. Details of implementation. 
+### Implementing the Front End using React: 
 
 To create the user interface we used ReactJS. At first it was tricky to get to grips with React as resources online often used JSX where you could write HTML, CSS and JavaScript all in one file. The syntax of JSX was extremely confusing to get to grips with at first so to make things easier we started to style the app using bootstrap as much as possible. Using bootstrap was useful as it is extremely straightforward to use and has a lot of built-in components which are ready to use such as different button sizes, button shapes and colors. However, as we went along and the styling requirements became more complex, we decided to shift towards using a traditional separate CSS file. Doing this allowed us to be more specific with styling which was necessary when trying to achieve specific font-colors, placing buttons in a particular place on the page, inserting background images and more. As a result, the code for styling of our app can partially be seen in the ‘question-item.component.js’ and the ‘start-quiz.component.js’ and partially in ‘index.css’.  
 
@@ -54,7 +54,7 @@ To create the user interface we used ReactJS. At first it was tricky to get to g
  
  ![](images/sysimp9.png)
  
- ### DEPLOYMENT DETAILS: 
+ ### Deployment details: 
  
   We were unable to successfully deploy the app on docker however, we did try various solutions. We tried using docker container to deploy the app by writing three separate files; A Dockerfile for the frontend, a Dockerfile for the backend and docker-compose.yml in the main project directory. When running this there were several error messages that occurred that we were unable to solve due to time restrictions. Although the frontend of our app seemed to run successfully on Docker, it was unable to connect to the database.  
 

@@ -1,6 +1,6 @@
 # SPRINTS & PROJECT MANAGEMENT 
 
-### AGILE Methodology 
+### AGILE methodology: 
 
 This project was conducted using the AGILE methodology due to both its flexibility and its effectiveness in allowing a product to be delivered as close to specification as possible. There are numerous approaches to AGILE, however the two main approaches are the Scrum and Kanban methodologies. When starting this project, we set out to implement a Scrum framework, primarily because we wanted to create a working version of the application at the soonest possible date, after which amendments could be made. We set out a timeline to map the various sprint intervals and outlined the first batch of tasks that would need to be completed by the end of the first sprint. However, as we progressed through the project, we found it increasingly challenging to stick to the rigid timeline for sprints, most notably due to external pressures.  
 
@@ -8,7 +8,7 @@ It appeared that we were naturally shifting towards more of a Kanban framework. 
 
 Another way the team was able to communicate progress was through the use of both Git and Microsoft OneDrive, which provided a way for progress to be tracked outside of the team meetings. OneDrive seemed the most logical choice since it was a service that everyone had access to through their university account. It also allowed us to create a shared folder where all documents could be collected and distributed to the entire team quickly and effectively. One of the key benefits of OneDrive is that multiple people can open a file at the same time and edit it in real-time. This proved to be very useful, particularly in the initial brainstorming stages of the project where it was beneficial to get as many ideas down on paper as possible from all team members. 
 
-### Team Roles 
+### Team roles: 
 
 Given that the Scrum framework requires the use of clearly defined roles for team members, our initial meetings were mainly used to determine how the project should be split and which roles should be allocated to each team member. To begin with, the project was split into 3 main sections, and the roles were allocated as follows: 
 

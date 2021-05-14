@@ -8,13 +8,22 @@ The first step we took was to run ‘npm init’ in the ‘backend’ folder to 
 
 To make the development easier, we also thought it was a good idea to install nodemon as this would allow us to see live changes to our web app with every saved change to the source code meaning that we wouldn’t have to re-run the server every time we wanted to see a new change. To do this, we ran the following ‘npm i -D nodemon’. Once this was set up, we then set the entry point through the server.js file as seen below: 
 
-![](images/sysimp1.png)
+<!-- ![](images/sysimp1.png)-->
+
+ <p align="center">
+<img src="images/sysimp1.png" width=80%>
+</p>
+
 
 Express uses Node and MongoDB to create the backend of the server part of the project. We have also set the port to either process.env.PORT or if there is nothing there, to port 5000. 
 
 After this was set up, we then went on to set up the database through MongoDB ATLAS as it is a cloud hosted database and so allows our database to be accessed globally. To do this we created an account, built a cluster and then connected it to our application via MongoDB ATLAS. This then led us to our database link (ATLAS_URI) which we input into a .env file and connected it to our server via mongoose using the following code in the server.js file: 
 
-![](images/sysimp2.png)
+<!--![](images/sysimp2.png)-->
+
+<p align="center">
+<img src="images/sysimp2.png" width=90%>
+</p>
 
 We then needed to add another dependency package called ‘config’ which would provide us with the global variable to be able to run the app. As the database had been successfully connected, we went on to build our route set up and RESTful API.  
 
@@ -22,15 +31,30 @@ In our ‘routes’ folder, we created a file called questions.js which containe
 
 We also needed a database model for each of our documents in order to interact with our database. To do this we created a schema in the ‘models’ folder in the ‘backend’ folder called question.model.js. Here we defined what every document inserted into our database should look like in order to be successfully added. The schema reflected what we wanted our quiz format to look like and so included: the question ID (so we knew which question was being added to the database and so that we had an identifier to retrieve it by via the API to be displayed on the frontend), questiontext (the question itself), choice1 - choice4 (as it is a multiple choice quiz), answer (to determine which the correct answer is), picture (an image which is related to the question), fact (to accompany the picture and provide more information about the topic being asked). Here is the schema: 
 
-![](images/sysimp3.png)
+<!--![](images/sysimp3.png)-->
+
+<p align="center">
+<img src="images/sysimp3.png" width=80%>
+</p>
+
 
 To populate the database, we wrote a script in the server.js file (we could have done it in a separate file which would have been cleaner) with all the documents (questions, facts, images etc) that we wanted to be added to the database. We first wrote all the data in a function called ‘createQuestions’ and input the data in the same order as the schema shown above e.g.: 
 
-![](images/sysimp4.png)
+<!--![](images/sysimp4.png)-->
+
+<p align="center">
+<img src="images/sysimp4.png" width=100%>
+</p>
+
 
 ‘questionCreate’ shown above was used to define every question entry. We then used ‘async.series’ to call all the functions in ‘createQuestions’ and insert them into the database. 
 
-![](images/sysimp5.png)
+<!--![](images/sysimp5.png)-->
+
+<p align="center">
+<img src="images/sysimp5.png" width=80%>
+</p>
+
 
 This process completed the backend of the application. 
 ___
@@ -41,19 +65,36 @@ To create the user interface we used ReactJS. At first it was tricky to get to g
 
  In order to get the quiz questions to display on the front end we needed to access the questions in the database via the API. To do this we used the Axios library to send HTTP requests to our backend and to retrieve the database documents in order to save all the questions to an array visible in our javascript class. The following code shows how this was implemented in the ‘question-item.component.js’ file: 
  
- ![](images/sysimp6.png)
+ <!--![](images/sysimp6.png)-->
+
+ <p align="center">
+<img src="images/sysimp6.png" width=80%>
+</p>
  
  In the constructor we create a number of states which re-render every time the state has been changed using setState(). Here we create a state called questions of type array, and assign the data that is retrieved by axios.get() to the questions array. The data that is retrieved by the axios.get() function are the documents in our MongoDB database which contain everything that has been detailed in the schema. Since this gave us access to this data on the client side, we were then able to integrate the information with our HTML and CSS to render it on the page and display each question with its respective information (answer choices, picture, fact etc) one by one by looping through the questions array. We can access each part of the schema using the ‘.’ operator after questions and naming the part of the schema we want to access e.g. ‘question.fact’ gave us access to the fact of the current question. How we set up the quiz page before the user selected an answer choice is shown in the code below and has been taken from the ‘question-item.component.js’ file: 
  
- ![](images/sysimp7.png)
+ <!--![](images/sysimp7.png)-->
+
+  <p align="center">
+<img src="images/sysimp7.png" width=85%>
+</p>
  
  Each time the user picks an answer option, we want the relevant fact, picture, their current score out of 10 and whether they got the answer right or wrong to be displayed on the page. To do this, the checkAnswer() function was called every time a choice was picked by the user. The function then checked to see whether the answer they got was right or wrong and accordingly displayed the correct message - either Good answer! Or Wrong answer! respectively - and then displayed the correct image and fact and a button to go to the next question. This code can be seen below from the ‘question-item.component.js’ file: 
  
- ![](images/sysimp8.png)
+ <!--![](images/sysimp8.png)-->
+
+  <p align="center">
+<img src="images/sysimp8.png" width=85%>
+</p>
  
  To get everything rendered on the screen, the render() function was called every time a change happened i.e. every time a user pressed a button the page would re-render appropriately as seen in the code below from the from the ‘question-item.component.js’ file: 
  
- ![](images/sysimp9.png)
+ <!--![](images/sysimp9.png)-->
+
+<p align="center">
+<img src="images/sysimp9.png" width=85%>
+</p>
+
 ___
  
  ### **Deployment details:** 

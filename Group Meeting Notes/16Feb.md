@@ -2,7 +2,7 @@
 
 THIS FRIDAY @ 01:00pm 
 
-Fridays @ 11:00am  
+Decided we will have weekly meets for 1-2 hours Fridays @ 11:00am to learn the technical parts together
 
 **THEME: CULTURE** 
 
@@ -55,3 +55,8 @@ Rewards system
 Points based 
 
 Leaderboard that ranks participants 
+
+**Goal for next time:**
+
+To meet on Friday and further explore our final idea and hash out details
+- If anyone has other ideas that come to their mind they need to research and present them at the Friday meeting

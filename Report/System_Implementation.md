@@ -1,6 +1,6 @@
 # SYSTEM IMPLEMENTATION
 
-### Implementing the MERN (MongoDB, Express, React and Node) Stack: 
+### Implementing the MERN backend (MongoDB, Express and Node) Stack: 
 
 To implement the MERN application we took a four step approach. First, we configured the backend API, i.e. the server side, by connecting Express and Node to MongoDB and the front end. After the creation of the API, we built the frontend using ReactJS to design the user interface. Finally, we linked the frontend and backend inside of the javascript classes in ReactJS. We used the resources on the SEGP GitHub and the following logRocket MERN Stack Tutorial to guide us through the process: https://blog.logrocket.com/mern-stack-tutorial/#rest. We also used most of the following Medium website: https://medium.com/@beaucarnes/learn-the-mern-stack-by-building-an-exercise-tracker-mern-tutorial-59c13c1237a1  
 

@@ -81,7 +81,9 @@ undertaken, findings, implications.
 
 * There is a 5% mark for presentation, including formatting. We are looking for consistency, readability, conciseness, good use of figures and with the ultimate aim of this being a readable and useful public repo!
 
+>## **[Appendix A](./Report/appendixA.md)**
 
+>## **[Appendix B](./Report/appendixB.md)**
 
 
 

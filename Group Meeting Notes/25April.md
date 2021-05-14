@@ -1,7 +1,7 @@
 25th April 2021 
 
 
-**Google form:** 
+**GOAL FOR NEXT TIME: Create a Google form for user feedback:** 
 
 Introduction to explain what the game is about  
 
@@ -10,7 +10,7 @@ Have qualitative and quantitative feedback -> End of today
 Over 18s year olds  - easier to get user feedback – no consent needed 
 
 
-**New roles?**
+**Deicded on New roles:**
 Jehan – React  
 
 Imran - MongoDB 
@@ -22,5 +22,4 @@ Alfred - Questionnaire
 Arthur – Mongo DB 
 
  
-
-Meeting tomorrow  
+- Stand up eeting taking place tomorrow  

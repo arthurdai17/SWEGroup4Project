@@ -4,8 +4,6 @@
 
 To implement the MERN application we took a four step approach. First, we configured the backend API, i.e. the server side, by connecting Express and Node to MongoDB and the front end. After the creation of the API, we built the frontend using ReactJS to design the user interface. Finally, we linked the frontend and backend inside of the javascript classes in ReactJS. We used the resources on the SEGP GitHub and the following logRocket MERN Stack Tutorial to guide us through the process: https://blog.logrocket.com/mern-stack-tutorial/#rest. We also used most of the following Medium website: https://medium.com/@beaucarnes/learn-the-mern-stack-by-building-an-exercise-tracker-mern-tutorial-59c13c1237a1  
 
-Back End - MongoDB, Express, Node, the RESTful API - database implementation, the data model that you developed your back end from (e.g. entity relationship diagrams). 
-
 The first step we took was to run ‘npm init’ in the ‘backend’ folder to initialise the project with a package.json file and we accepted all the default packages. We then installed all the dependencies which we thought would be useful for our project using the ‘npm i’ command. The dependencies we installed were; express, mongoose, dotenv, cors and async.  
 
 To make the development easier, we also thought it was a good idea to install nodemon as this would allow us to see live changes to our web app with every saved change to the source code meaning that we wouldn’t have to re-run the server every time we wanted to see a new change. To do this, we ran the following ‘npm i -D nodemon’. Once this was set up, we then set the entry point through the server.js file as seen below: 

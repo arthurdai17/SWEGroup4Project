@@ -20,13 +20,13 @@ Software Engineering Group Project
 
 ![MERN LOGO](https://miro.medium.com/max/900/0*UqGyYmWCRQnjLzSk.jpg)
 
->### **Introduction [10]**
+>## **[Introduction](./report/Introduction.md)**
 
 * Abstract. Motivation for the project, framing of the problem and a high-level overview of the system.
 * Project Objectives. The high level goals of the project and the contribution towards solving the problem. A checklist against which the team can evaluate their success.
 * Video. Short (1-2min) demo video to explain your system (think Kickstarter)
 
->### **Background and Motivation [10]**
+>## **[Background and Motivation](./report/Background_And_Motivation.md)**
 
 * Background literature. Academic research review.
 * State of the art survey. Current industry review.

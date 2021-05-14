@@ -59,14 +59,14 @@ heuristics)
 * Documentation of your sprints, including both high level overview, timeline, and selected highlights that were critical points in the project (remember to show the users stories implemented in each sprint). We expect a summary of meeting logs (including for instance apologies for absence etc)
 * Team use of Git, how your team used continuous integration / continuous deployment. Streamlining of workflow throughout.
 
->### **Evaluation [15]**
+>## **[Evaluation](./Report/Evaluation.md)**
 
 * Details of how you evaluated your designs (techniques used & awareness of their limitations). Description of techniques suitable for your particular design. A timeline of evaluation of your design.
 * Unit testing / Functional testing.
 * User acceptance testing. Evaluation of your design with users – methods
 undertaken, findings, implications.
 
->### **Conclusion [10]**
+>## **[Conclusion](./Report/Conclusion.md)**
 
 * Reflect on the working practices of your group, how well they did or did not work, e.g, management of issues, communication, Agile (etc).
 * Reflective discussion of the success of the project. How well did your project fulfil the brief? Were all of your own objectives met

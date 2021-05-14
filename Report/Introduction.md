@@ -17,3 +17,5 @@ There are a number of high-level objectives that we set out to achieve for this 
 2. To deliver information in a way that is interactive and engaging so that users enjoy using the application (and are likely to continue using it). 
 
 3. To implement a system that will help users remember what they have learnt. 
+
+Link to the introduction video: https://drive.google.com/file/d/1s39AuYFkGkn_oUL_7on44Kh17AimB34w/view?usp=sharing

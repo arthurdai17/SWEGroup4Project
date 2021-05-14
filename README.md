@@ -32,7 +32,7 @@ Software Engineering Group Project
 * State of the art survey. Current industry review.
 * Clear definition of the problem. How does your project relate to the above? We will be marking the ability of your team to identify a worthwhile and important problem and clearly articulate the scope and challenge of the problem.
 
->## **[System Implementation](./Report/System_Implementation)**
+>## **[System Implementation](./Report/System_Implementation.md)**
 
 * Stack architecture and system design (e.g. class diagrams, sequence
 diagrams).
@@ -43,7 +43,7 @@ developed your back end from (e.g. entity relationship diagrams).
 * Additional elements and components e.g. authentification. Tell us about any other aspects not covered above!
 * Deployment details (including Docker), include how you have been achieving continuous integration and deployment.
 
->### **UX Design [15]**
+>## **[UX Design](./Report/UX_Design.md)**
 
 * Design Process and Early prototyping and ideation (including mood boards and paper prototyping)
 * Identification of interacting users and broader stakeholders.
@@ -52,7 +52,7 @@ heuristics)
 * Understanding of user group (questionnaires / user stories / interviews)
 * Wireframes and interaction flow diagrams for final key subsystems.
 
->### **Sprints & Project Management [15]**
+>## **[Sprints & Project Management](./Report/Sprints_And_Project_Management.md)**
 
 * Group working methods used (for instance did your team choose a particular style of agile? what communication channels did you use?)
 * Discussion of team roles (specialisation is ok!). A summary of individual contributions (note: this is for reference, your team will all receive the same grade!).
